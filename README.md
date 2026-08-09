@@ -22,8 +22,6 @@ shitgpt "Why is my code throwing a segmentation fault?"
 shitgpt
 ```
 
-For local development before the repository exists, use `cargo install --path .` instead.
-
 In the UI, type `/models` to list models, `/model 1` through `/model 4` to switch, `/clear` to reset the conversation, or `/exit` (or `q`) to quit.
 
 `shitgpt` picks a stable bad reply from its response set based on the question. To print every response instead:
