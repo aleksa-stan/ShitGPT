@@ -1,0 +1,13 @@
+[package]
+name = "shitgpt"
+version = "0.1.0"
+edition = "2021"
+description = "ShitGPT: a deliberately terrible AI assistant for demos and tests"
+license = "MIT"
+repository = "https://github.com/aleksa-stan/shitgpt"
+keywords = ["cli", "parody", "ai", "demo"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "shitgpt"
+path = "src/main.rs"
